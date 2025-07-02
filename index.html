@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sri Devi Bhavan WiFi Portal</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #fdf5d3;
+      color: #7b0f12;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    .container {
+      max-width: 480px;
+      margin: auto;
+      padding: 20px;
+    }
+    img.logo {
+      width: 160px;
+      margin: 20px auto;
+      display: block;
+      animation: fadeDown 1.2s ease-in-out;
+    }
+    h1 {
+      font-size: 1.8em;
+      margin: 0.4em 0 0.2em;
+      text-shadow: 0 0 8px rgba(255, 204, 102, 0.5);
+    }
+    h2 {
+      margin-top: 0.5em;
+      font-size: 1.2em;
+      color: #a5171a;
+      text-shadow: 0 0 8px rgba(255, 204, 102, 0.5);
+    }
+    p {
+      font-size: 1em;
+      margin: 0.4em 0;
+    }
+    .button {
+      display: block;
+      background-color: #7b0f12;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1em;
+      padding: 12px;
+      border-radius: 8px;
+      margin: 16px auto;
+      width: 90%;
+      max-width: 320px;
+      animation: slideIn 1s ease-out 1.4s;
+      animation-fill-mode: both;
+    }
+    .qr-code {
+      margin: 12px auto;
+      width: 150px;
+      animation: pulse 2.5s ease-in-out infinite;
+    }
+    footer {
+      font-size: 0.9em;
+      color: #444;
+      margin-top: 30px;
+    }
+
+    @keyframes fadeDown {
+      0% {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes slideIn {
+      0% {
+        opacity: 0;
+        transform: translateX(-40px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.05);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="logo1.png" alt="Sri Devi Bhavan Logo" class="logo" />
+
+    <h2>🙏 Namaskara</h2>
+    <h1>Welcome to Sri Devi Bhavan</h1>
+    <p><em>Established 1953 | Tradition Served Daily</em></p>
+
+    <a href="https://sridevibhavan.github.io/MENUDIGITAL/" target="_blank" class="button">📖 View Digital Menu</a>
+
+    <p>📌 We’d love your feedback</p>
+    <img src="qr-code.png" alt="Google Review QR Code" class="qr-code" />
+
+    <footer>
+      Your connection to <strong>SDB-Free-WiFi</strong> is now active. Enjoy your meal! 🍽️
+    </footer>
+  </div>
+</body>
+</html>
